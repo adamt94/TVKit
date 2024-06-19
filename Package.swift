@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "TVKit",
+    platforms: [
+        .tvOS(.v17) // or whichever tvOS version you are targeting
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -19,9 +22,5 @@ let package = Package(
         .testTarget(
             name: "TVKitTests",
             dependencies: ["TVKit"]),
-    ],
- dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/adamt94/tvkit.git", from: "1.0.0"),
-    ],
+    ]
 )
