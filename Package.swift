@@ -19,5 +19,9 @@ let package = Package(
         .testTarget(
             name: "TVKitTests",
             dependencies: ["TVKit"]),
-    ]
+    ],
+ dependencies: [
+        // Dependencies declare other packages that this package depends on.
+        .package(url: "https://github.com/adamt94/tvkit.git", from: "1.0.0"),
+    ],
 )
