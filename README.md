@@ -20,12 +20,12 @@ pod 'TVKit'
 
 ### Carthage
 ```Cartfile
-github "jinSasaki/TVKit"
+github "adamt94/TVKit"
 ```
 
 ## Components
 ### Slider
-![slider](https://github.com/jinSasaki/TVKit/raw/master/Assets/slider.gif)
+![slider](https://github.com/adamt94/TVKit/raw/master/Assets/slider.gif)
 
 ```swift
 class ViewController: UIViewController {
