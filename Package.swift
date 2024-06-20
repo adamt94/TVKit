@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "TVKit",
     platforms: [
-        .tvOS(.v9.2) // or whichever tvOS version you are targeting
+        .tvOS(.v9) // or whichever tvOS version you are targeting
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
