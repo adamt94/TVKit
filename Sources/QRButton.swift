@@ -48,7 +48,7 @@ public class QRButton: UIButton {
     }
     
     private func qrCodeImage(code: String) -> UIImage? {
-        if code.characters.count == 0 { return nil }
+        if code.isEmpty { return nil }
         
         let data = code.data(using: .utf8)
         if data?.count == 0 { return nil }
